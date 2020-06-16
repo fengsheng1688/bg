@@ -1,7 +1,7 @@
 let html = document.querySelector("#html");
 let style = document.querySelector("#style");
 
-let string = `/* 你好，我叫小方
+let string = `/* 你好，我叫小明
  * 接下来我演示一下我的前端功底
  * 首先我要准备一个div
  **/
@@ -70,7 +70,7 @@ let step = () => {
       n += 1;
       step();
     }
-  }, 50);
+  }, 10);
 };
 
 step(); // 1=>2
